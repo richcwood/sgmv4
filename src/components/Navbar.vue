@@ -8,7 +8,7 @@
             </div>
             <div class="navbar-menu">
                 <div class="navbar-start">
-                    <MenuLink href="/solutions" class="navbar-item">Solutions</MenuLink>
+                    <MenuLink href="/solutions/cron" class="navbar-item">Solutions</MenuLink>
                     <MenuLink href="/pricing" class="navbar-item">Pricing</MenuLink>
                     <MenuLink href="/news" class="navbar-item">News</MenuLink>
                     <MenuLink href="/blog" class="navbar-item">Blog</MenuLink>
