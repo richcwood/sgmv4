@@ -1,0 +1,15 @@
+$primary: deepskyblue;
+
+@import 'bulma/bulma';
+
+.has-text-deepskyblue {
+    color: deepskyblue;
+}
+
+.has-background-placeholder {
+    background: rgb(172,158,158);
+}
+
+.noscroll {
+    overflow: hidden;
+}
