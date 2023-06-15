@@ -11,7 +11,7 @@
     <figure class="image is-fullwidth">
       <img src="@/assets/images/blog/cron-jobs-with-sg/head-image.webp" alt="Head image" />
     </figure>
-    <p>This article will describe how to import your Cron jobs to <a href="https://saasglue.com/solutions">SaaSGlue</a>
+    <p>This article will demonstrate how to import your Cron jobs to <a href="https://saasglue.com/solutions/cron">SaaSGlue</a>
       in five minutes or less. To see how it works in action, watch the 2 1/2 minute demo video at the end of this
       article.</p>
     <h2>Cron is great, until it's not</h2>
@@ -72,10 +72,8 @@
     <h3>Step 3: Import your Cron jobs</h3>
     <p>After clicking the “Import” button next to your machine name, a dialog box will show the Cron jobs currently
       running on the host machine. Each Cron job will have an “Import” button next to it. As each Cron job is
-      imported,
-      a new tab will open with the imported job. You can then modify the schedule and other job parameters. Remember
-      to
-      delete or disable the Cron jobs on the host machine to avoid duplicate job executions.</p>
+      imported, a new tab will open with the imported job. You can then modify the schedule and other job parameters. 
+      Remember to delete or disable the Cron jobs on the host machine to avoid duplicate job executions.</p>
     <p>Watch the video for a 2 1/2 minute demo and explanation of these steps.</p>
     <figure class="image is-16by9">
       <iframe class="has-ratio" frameborder="0" allowfullscreen
