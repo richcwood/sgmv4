@@ -4,9 +4,9 @@
             <img src="@/assets/images/docs1.svg" />
             <span :class="{'is-active': pageContext.urlPathname === '/docs'}">Docs</span>
         </a>
-        <a href="/solutions" class="navbar-item is-flex is-flex-grow-1 is-align-items-center is-justify-content-center">
+        <a href="/blog" class="navbar-item is-flex is-flex-grow-1 is-align-items-center is-justify-content-center">
             <img src="@/assets/images/solutions1.svg" />
-            <span :class="{'is-active': pageContext.urlPathname === '/solutions'}">Solutions</span>
+            <span :class="{'is-active': pageContext.urlPathname === '/blog'}">Blog</span>
         </a>
         <a href="/news" class="navbar-item is-flex is-flex-grow-1 is-align-items-center is-justify-content-center">
             <img src="@/assets/images/news1.svg" />

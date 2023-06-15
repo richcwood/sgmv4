@@ -11,7 +11,7 @@
                 <div class="column">
                     <h5 class="is-uppercase has-text-weight-bold">Developers</h5>
                     <p><a href="/docs">Docs</a></p>
-                    <p><a href="/solutions">Solutions</a></p>
+                    <p><a href="/solutions/cron">Solutions</a></p>
                 </div>
                 <div class="column">
                     <h5 class="is-uppercase has-text-weight-bold">Quick Links</h5>
