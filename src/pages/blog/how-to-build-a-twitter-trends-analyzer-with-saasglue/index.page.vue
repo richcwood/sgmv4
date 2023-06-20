@@ -10,7 +10,7 @@
     <figure class="image is-fullwidth">
       <img src="@/assets/images/blog/twitter-analyzer/head-image.webp" alt="Head image" />
     </figure>
-    <p>This article describes how to build a “what’s trending on twitter” single page web app with a hybrid cloud data 
+    <p>This article demonstrates how to build a “what’s trending on twitter” single page web app with a hybrid cloud data 
       pipeline powered by <a href="https://saasglue.com/">SaaSGlue</a>.</p>
     <h2>Introduction</h2>
     <p>Learn how to build a data pipeline that creates batches of streaming tweets, analyzes a moving window of tweet 
@@ -120,7 +120,7 @@ export default defineComponent({
 
   computed: {
     tags (): Tag[] {
-      return [Tag.CRON, Tag.SOFT_DEV, Tag.AUTO_SOFT, Tag.SAAS, Tag.SAAS_TOOLS];
+      return [Tag.DATA_ENGINEERING, Tag.HYBRID_CLOUD, Tag.DATA_SCIENCE, Tag.DATA_PIPELINE, Tag.SOFT_DEV];
     }
   }
 });

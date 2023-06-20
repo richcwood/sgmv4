@@ -31,27 +31,9 @@
                             <time datetime="2022-4-23">April 23, 2022</time>
                         </footer>
                     </div>
-                    <div class="card mb-3">
-                        <div class="card-content">
-                            <a target="_blank" href="https://medium.com/@rich_81505/minimize-the-cost-of-your-aws-batch-data-pipelines-with-severless-and-ephemeral-compute-7dc883836f9c">Minimize the cost of your AWS batch data pipelines with serverless and ephemeral compute</a>
-                        </div>
-                        <footer class="card-footer p-2">
-                            <img src="@/assets/images/calendar-icon.svg" class="mr-2" width="24" alt="Calendar icon" />
-                            <time datetime="2022-1-22">January 22, 2022</time>
-                        </footer>
-                    </div>
                 </div>
 
                 <div class="column is-6">
-                    <div class="card mb-3">
-                        <div class="card-content">
-                            <a target="_blank" href="https://medium.com/@rich_81505/build-a-hybrid-cloud-data-pipeline-in-minutes-43261d07c8a9">How to build a twitter analyzer with a hybrid cloud data pipeline and a single page web app</a>
-                        </div>
-                        <footer class="card-footer p-2">
-                            <img src="@/assets/images/calendar-icon.svg" class="mr-2" width="24" alt="Calendar icon" />
-                            <time datetime="2021-7-17">July 17, 2021</time>
-                        </footer>
-                    </div>
                     <div class="card mb-3">
                         <div class="card-content">
                             <a target="_blank" href="https://www.dataengineeringpodcast.com/saasglue-cloud-workflow-manager-episode-201/">Podcast - Stick All Of Your Systems And Data Together With SaaSGlue As Your Workflow Manager - Episode 201</a>

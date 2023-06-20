@@ -10,7 +10,7 @@
                 <div class="navbar-start">
                     <MenuLink href="/solutions/cron" class="navbar-item">Solutions</MenuLink>
                     <MenuLink href="/pricing" class="navbar-item">Pricing</MenuLink>
-                    <MenuLink href="/news" class="navbar-item">News</MenuLink>
+                    <!-- <MenuLink href="/news" class="navbar-item">News</MenuLink> -->
                     <MenuLink href="/blog" class="navbar-item">Blog</MenuLink>
                     <MenuLink href="/docs" class="navbar-item">Docs</MenuLink>
                     <MenuLink href="/livedemo" class="navbar-item live-demo">Live Demo !</MenuLink>
