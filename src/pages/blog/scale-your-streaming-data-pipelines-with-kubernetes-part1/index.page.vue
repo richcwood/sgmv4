@@ -8,7 +8,7 @@
     </template>
 
     <figure class="image is-fullwidth">
-      <img src="@/assets/images/blog/cron-jobs-with-sg/head-image.webp" alt="Head image" />
+      <img src="@/assets/images/blog/scale-data-pipelines-part1.webp" alt="Head image" />
     </figure>
     <p>A system architecture for streaming data pipelines that scales automatically while minimizing compute costs.</p>
     <h2>Introduction</h2>
