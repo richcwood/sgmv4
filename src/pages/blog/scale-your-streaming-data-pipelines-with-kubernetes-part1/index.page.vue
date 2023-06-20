@@ -6,10 +6,6 @@
     <template #tags>
       <span v-for="tag in tags" class="tag is-primary">{{ tag }}</span>
     </template>
-
-    <figure class="image is-fullwidth">
-      <img src="@/assets/images/blog/scale-data-pipelines-part1.webp" alt="Head image" />
-    </figure>
     <p>A system architecture for streaming data pipelines that scales automatically while minimizing compute costs.</p>
     <h2>Introduction</h2>
     <p>This article describes an architectural pattern for handling variable rate workloads with Kubernetes. 
@@ -17,9 +13,6 @@
       provides a detailed implementation of this pattern including demo code.</p>
     <p>This architecture is suitable for streaming data pipelines and parallelized batch processing, and particularly 
       well-suited for volatile workloads with longer task durations.</p>
-    <figure class="image is-fullwidth">
-      <img src="@/assets/images/blog/scale-data-pipelines-part1/img1.webp" alt="Variable Rate Workloads with Kubernetes" />
-    </figure>
     <h2>The problem with Kubernetes Deployments</h2>
     <p>Applications deployed as Kubernetes Deployments (or StatefulSets) can be scaled manually or automatically either 
       through the API or with the HorizontalPodAutoscaler (HPA). This can be a great solution for scaling relatively 
