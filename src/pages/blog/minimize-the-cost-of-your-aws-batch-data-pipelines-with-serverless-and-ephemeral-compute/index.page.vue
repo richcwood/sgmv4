@@ -123,7 +123,7 @@ export default defineComponent({
 
   computed: {
     tags (): Tag[] {
-      return [Tag.AUTO_SOFT, Tag.DATA_PIPELINE, Tag.CLOUD_COST_OPTIMIZATION, Tag.SERVERLESS_ARCHITECTURE];
+      return [Tag.AUTO_SOFT, Tag.DATA_PIPELINE, Tag.CLOUD_COST_MANAGEMENT, Tag.SERVERLESS_ARCHITECTURE];
     }
   }
 });

@@ -16,7 +16,7 @@
                 <div class="column">
                     <h5 class="is-uppercase has-text-weight-bold">Quick Links</h5>
                     <p><a target="_blank" href="https://console.saasglue.com">Sign In</a></p>
-                    <p><a href="/news">News</a></p>
+                    <p><a href="/blog">Blog</a></p>
                     <p><a href="/pricing">Pricing</a></p>
                 </div>
                 <div class="column">
