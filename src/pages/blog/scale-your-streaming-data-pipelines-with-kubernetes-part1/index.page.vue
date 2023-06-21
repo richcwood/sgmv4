@@ -11,6 +11,11 @@
     <p>This article describes an architectural pattern for handling variable rate workloads with Kubernetes. 
       <a href="https://medium.com/@rich_81505/scale-your-streaming-data-pipelines-efficiently-with-kubernetes-part-2-3e2bc8889eac">Part 2</a> 
       provides a detailed implementation of this pattern including demo code.</p>
+    <div class="has-text-centered">
+      <figure class="image is-inline-block" style="width:40%">
+        <img src="@/assets/images/blog/scale-data-pipelines-part1/img1.webp" alt="Data Pipeline Diagram" />
+      </figure>
+    </div>
     <p>This architecture is suitable for streaming data pipelines and parallelized batch processing, and particularly 
       well-suited for volatile workloads with longer task durations.</p>
     <h2>The problem with Kubernetes Deployments</h2>

@@ -1,5 +1,6 @@
 import cronJobsWithSgHeadImage from '@/assets/images/blog/cron-jobs-with-sg/head-image.webp';
 import scaleDataPipelinesPart1HeadImage from '@/assets/images/blog/scale-data-pipelines-part1/head-image.webp';
+import scaleDataPipelinesPart2HeadImage from '@/assets/images/blog/scale-data-pipelines-part2/head-image.webp';
 import awsDataPipelinesHeadImage from "@/assets/images/blog/aws-data-pipelines/head-image.webp";
 import buildTwitterAnalyzerHeadImage from '@/assets/images/blog/twitter-analyzer/head-image.webp';
 
@@ -27,7 +28,8 @@ export enum Tag {
   AUTOSCALING = 'Autoscaling',
   CLOUD_COST_MANAGEMENT = 'Cloud Cost Management',
   EVENT_DRIVEN_ARCHITECTURE = 'Event Driven Architecture',
-  SERVERLESS_ARCHITECTURE = 'Serverless Architecture'
+  SERVERLESS_ARCHITECTURE = 'Serverless Architecture',
+  RABBITMQ = 'RabbitMQ'
 }
 
 export default [{
@@ -47,6 +49,16 @@ export default [{
   title: 'Scale your streaming data pipelines efficiently with kubernetes — Part 1.',
   description: 'This article describes a system architecture for streaming data pipelines that scales automatically while minimizing compute costs.',
   tags: [Tag.DATA_PIPELINE, Tag.KUBERNETES, Tag.AUTOSCALING, Tag.CLOUD_COST_MANAGEMENT, Tag.EVENT_DRIVEN_ARCHITECTURE]
+},
+{
+  author: 'Richard Wood',
+  uri: '/blog/scale-your-streaming-data-pipelines-with-kubernetes-part2',
+  date: '2022-7-18',
+  image: scaleDataPipelinesPart2HeadImage,
+  title: 'Scale your streaming data pipelines efficiently with kubernetes — Part 2.',
+  description: 'This article demonstrates an implementation of a system architecture for streaming data pipelines that scales automatically while minimizing compute costs using SaaSGlue.',
+  tags: [Tag.DATA_PIPELINE, Tag.KUBERNETES, Tag.AUTOSCALING, Tag.CLOUD_COST_MANAGEMENT, Tag.EVENT_DRIVEN_ARCHITECTURE,
+    Tag.RABBITMQ]
 },
 {
   author: "Richard Wood",
