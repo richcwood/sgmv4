@@ -79,7 +79,7 @@
         </div>
     </section>
     <section class="section is-medium">
-        <div class="container is-size-5-desktop is-size-6-mobile">
+        <div class="container is-size-5-desktop is-size-6-touch">
             <div class="columns is-multiline has-text-left">
                 <div class="column is-half">
                     <h3 class="subtitle has-text-weight-semibold is-flex is-align-items-center is-justify-content-center">

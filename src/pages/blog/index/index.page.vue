@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <h1 class="title has-text-centered">SaaSGlue Blog</h1>
+      <h1 class="title has-text-centered is-size-2-desktop is-size-3-touch mb-6">SaaSGlue Blog</h1>
 
       <div class="columns is-multiline">
         <div v-for="article in articles" class="column is-4">

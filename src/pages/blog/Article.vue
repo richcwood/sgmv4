@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <main class="container is-max-desktop">
-      <article class="content px-4 is-size-5-desktop is-size-6-mobile" style="margin-left:100px;margin-right:100px;">
+      <article class="content px-4 is-size-5-desktop is-size-6-touch" style="margin-left:100px;margin-right:100px;">
         <header>
           <h1 class="title has-text-centered">
             <slot name="title" />
