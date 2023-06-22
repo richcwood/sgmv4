@@ -18,8 +18,9 @@
         <img src="@/assets/images/blog/scale-data-pipelines-part2/img1.webp" alt="Data Pipeline Diagram" />
       </figure>
     </div>
-    <p>All code described in this article is available in Github here. This repo also includes helm charts and scripts 
-      to install, run and monitor the demo application in your Kubernetes environment.</p>
+    <p>All code described in this article is available in Github 
+      <a target="_blank" href="https://github.com/saascipes/k8s-auto-scaler">here</a>. This repo also includes helm 
+      charts and scripts to install, run and monitor the demo application in your Kubernetes environment.</p>
     <h2>Environment</h2>
     <p>The demo application will run in any Kubernetes environment including Docker Desktop. To get the full benefits 
       of auto scaling, production implementations should be deployed on auto scaling or “Managed” node groups such as 
@@ -61,7 +62,7 @@
       one node at a time, Workers will scale accordingly. This will result in a pattern of scaling fairly quickly until 
       the cluster is fully utilized followed by a potentially long pause while a new node is provisioned. For faster 
       scaling, we could over provision the cluster, as described in this 
-      <a href="https://medium.com/scout24-engineering/cluster-overprovisiong-in-kubernetes-79433cb3ed0e">article</a>, 
+      <a target="_blank" href="https://medium.com/scout24-engineering/cluster-overprovisiong-in-kubernetes-79433cb3ed0e">article</a>, 
       or create multiple Managed node groups and scale them independently.</p>
     <h2>Workers</h2>
     <p>Workers process messages in a queue until the queue is empty and then shut down after a period of inactivity.</p>
@@ -74,9 +75,9 @@
       partially processed by one Worker and then processed by another Worker, the result is the same as if it was fully 
       processed by the first Worker.</p>
     <h2>The Demo</h2>
-    <p>The <a href="https://github.com/saascipes/k8s-auto-scaler">demo code</a> includes a fully functional demo of the 
-      Message Publisher, Worker Scaler and Worker applications. See the README file in the code repo for complete 
-      instructions for installing, running and monitoring the demo.</p>
+    <p>The <a target="_blank" href="https://github.com/saascipes/k8s-auto-scaler">demo code</a> includes a fully 
+      functional demo of the Message Publisher, Worker Scaler and Worker applications. See the README file in the code 
+      repo for complete instructions for installing, running and monitoring the demo.</p>
     <p>The ./bin/install.sh script will create and configure a RabbitMQ stateful set and a pod running the Worker Scaler 
       application in your Kubernetes cluster. It will also create a service account for the Worker Scaler and the 
       necessary Role and RoleBinding to authorize the service account to call the Kubernetes API.</p>

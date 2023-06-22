@@ -1,4 +1,5 @@
 import cronJobsWithSgHeadImage from '@/assets/images/blog/cron-jobs-with-sg/head-image.webp';
+import betterKubernetesJobSchedulerHeadImage from '@/assets/images/blog/kubernetes-job-scheduler/head-image.webp';
 import scaleDataPipelinesPart1HeadImage from '@/assets/images/blog/scale-data-pipelines-part1/head-image.webp';
 import scaleDataPipelinesPart2HeadImage from '@/assets/images/blog/scale-data-pipelines-part2/head-image.webp';
 import awsDataPipelinesHeadImage from "@/assets/images/blog/aws-data-pipelines/head-image.webp";
@@ -29,7 +30,9 @@ export enum Tag {
   CLOUD_COST_MANAGEMENT = 'Cloud Cost Management',
   EVENT_DRIVEN_ARCHITECTURE = 'Event Driven Architecture',
   SERVERLESS_ARCHITECTURE = 'Serverless Architecture',
-  RABBITMQ = 'RabbitMQ'
+  RABBITMQ = 'RabbitMQ',
+  CRONJOB = 'Cronjob',
+  LOW_CODE = 'Low Code'
 }
 
 export default [{
@@ -40,6 +43,15 @@ export default [{
   title: 'Time for a Change: Manage and Monitor Your Cron Jobs in the Cloud with SaaSGlue',
   description: 'This article demonstrates how to import your Cron jobs to SaaSGlue in five minutes or less.',
   tags: [Tag.CRON, Tag.SOFT_DEV, Tag.AUTO_SOFT, Tag.SAAS, Tag.SAAS_TOOLS]
+},
+{
+  author: 'Richard Wood',
+  uri: '/blog/a-better-kubernetes-job-scheduler',
+  date: '2022-10-29',
+  image: betterKubernetesJobSchedulerHeadImage,
+  title: 'A Better Kubernetes Job Scheduler',
+  description: 'SaaSGlue simplifies scheduling and running containerized applications as Kubernetes Jobs.',
+  tags: [Tag.KUBERNETES, Tag.CRONJOB, Tag.AUTO_SOFT, Tag.SAAS, Tag.LOW_CODE]
 },
 {
   author: 'Richard Wood',

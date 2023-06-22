@@ -16,8 +16,8 @@
     <p>This article demonstrates how to build a data pipeline that watches for files in an S3 bucket, provisions 
       compute to process the files, processes the files, and automatically terminates the compute after an idle 
       timeout period. All code, configuration and detailed instructions required to reproduce this data pipeline 
-      are available in Github <a href="https://github.com/saascipes/file-watcher-data-pipline">here</a>. We are 
-      using SaaSGlue to schedule and automate the data pipeline.</p>
+      are available in Github <a target="_blank" href="https://github.com/saascipes/file-watcher-data-pipline">here</a>. 
+      We are using SaaSGlue to schedule and automate the data pipeline.</p>
     <figure class="image is-16by9">
       <iframe class="has-ratio" frameborder="0" allowfullscreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -104,10 +104,10 @@
       instances to handle increasing loads while allowing each EC2 worker host to scale down when idle.</p>
     <p>In this example we are simply counting the instances of each word in an input file but we could just as easily 
       have spun up an EMR cluster and executed a Spark job (see 
-      <a href="how-to-build-a-twitter-trends-analyzer-with-saasglue/">How to build a twitter analyzer with a hybrid 
-        cloud data pipeline and a single page web app.</a>) for an example showing how to execute a Spark job as a 
-        SaaSGlue task). In fact we could orchestrate any number of dependent and parallel tasks involving resource 
-        allocation and processing using the SaaSGlue platform.</p>
+      <a target="_blank" href="how-to-build-a-twitter-trends-analyzer-with-saasglue/">How to build a twitter analyzer 
+        with a hybrid cloud data pipeline and a single page web app.</a>) for an example showing how to execute a Spark 
+        job as a SaaSGlue task). In fact we could orchestrate any number of dependent and parallel tasks involving 
+        resource allocation and processing using the SaaSGlue platform.</p>
   </Article>
 </template>
 

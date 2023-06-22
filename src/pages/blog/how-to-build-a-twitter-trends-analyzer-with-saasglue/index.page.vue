@@ -11,12 +11,12 @@
       <img src="@/assets/images/blog/twitter-analyzer/head-image.webp" alt="Head image" />
     </figure>
     <p>This article demonstrates how to build a “what’s trending on twitter” single page web app with a hybrid cloud data 
-      pipeline powered by <a href="https://saasglue.com/">SaaSGlue</a>.</p>
+      pipeline powered by <a target="_blank" href="https://saasglue.com/">SaaSGlue</a>.</p>
     <h2>Introduction</h2>
     <p>Learn how to build a data pipeline that creates batches of streaming tweets, analyzes a moving window of tweet 
       batches and extracts the most significant topics and then displays them using a modern single page web application. 
       All of the code, configuration files and instructions required to reproduce this data pipeline and web app are 
-      available in Github <a href="https://github.com/saascipes/twitter-data-pipeline">here</a>.</p>
+      available in Github <a target="_blank" href="https://github.com/saascipes/twitter-data-pipeline">here</a>.</p>
     <p>The web app looks like this:</p>
     <figure class="image is-fullwidth">
       <img src="@/assets/images/blog/twitter-analyzer/img1.webp" alt="Trending on Twitter" />
@@ -36,12 +36,13 @@
         page reloads.</li>
       <li>Spark cluster: the GitHub repo includes the docker files and docker-compose file required to build the docker 
         images and deploy the cluster.</li>
-      <li>LDA/Lemmitization Scala code: this code extracts the topics from the aggregated tweets files. Compiles to a Java 
-        jar file and runs in the Spark cluster.</li>
-      <li><a href="https://saasglue.com/">SaaSGlue</a> automation platform: a SaaS based service that schedules and 
-        orchestrates the data pipeline. You can sign up for a free to use account in a minute or two and the first 
-        1,000 script executions are free. You can easily import this data pipeline into your SaaSGlue team environment. 
-        For details see the Github <a href="https://github.com/saascipes/twitter-data-pipeline">repo</a> README.</li>
+      <li>LDA/Lemmitization Scala code: this code extracts the topics from the aggregated tweets files. Compiles to a 
+        Java jar file and runs in the Spark cluster.</li>
+      <li><a target="_blank" href="https://saasglue.com/">SaaSGlue</a> automation platform: a SaaS based service that 
+        schedules and orchestrates the data pipeline. You can sign up for a free to use account in a minute or two and 
+        the first 1,000 script executions are free. You can easily import this data pipeline into your SaaSGlue team 
+        environment. For details see the Github 
+        <a target="_blank" href="https://github.com/saascipes/twitter-data-pipeline">repo</a> README.</li>
     </ul>
     <h2>How the data pipeline works</h2>
     <p>The Twitter stream data pipeline is implemented as a SaaSGlue job. It can run on a schedule or it can be started 

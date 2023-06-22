@@ -9,8 +9,8 @@
     <p>A system architecture for streaming data pipelines that scales automatically while minimizing compute costs.</p>
     <h2>Introduction</h2>
     <p>This article describes an architectural pattern for handling variable rate workloads with Kubernetes. 
-      <a href="https://medium.com/@rich_81505/scale-your-streaming-data-pipelines-efficiently-with-kubernetes-part-2-3e2bc8889eac">Part 2</a> 
-      provides a detailed implementation of this pattern including demo code.</p>
+      <a target="_blank" href="/blog/scale-your-streaming-data-pipelines-with-kubernetes-part2">Part 2</a> provides a 
+      detailed implementation of this pattern including demo code.</p>
     <div class="has-text-centered">
       <figure class="image is-inline-block" style="width:40%">
         <img src="@/assets/images/blog/scale-data-pipelines-part1/img1.webp" alt="Data Pipeline Diagram" />
@@ -89,8 +89,8 @@
       <li>Kubernetes notices the application instance has stopped and it terminates the Job and the pod on which it was 
         running</li>    
     </ol>
-    <p><a href="https://medium.com/@rich_81505/scale-your-streaming-data-pipelines-efficiently-with-kubernetes-part-2-3e2bc8889eac">Part 2</a> 
-      of this article provides a detailed implementation of this pattern. It includes python code for scaling up a queue 
+    <p><a target="_blank" href="/blog/scale-your-streaming-data-pipelines-with-kubernetes-part2">Part 2</a> of this 
+      article provides a detailed implementation of this pattern. It includes python code for scaling up a queue 
       worker application and the queue worker logic that terminates the application instance after a period of 
       inactivity.</p>
   </Article>

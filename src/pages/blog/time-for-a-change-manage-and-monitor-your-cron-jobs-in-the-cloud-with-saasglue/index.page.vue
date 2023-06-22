@@ -11,7 +11,7 @@
     <figure class="image is-fullwidth">
       <img src="@/assets/images/blog/cron-jobs-with-sg/head-image.webp" alt="Head image" />
     </figure>
-    <p>This article will demonstrate how to import your Cron jobs to <a href="https://saasglue.com/solutions/cron">SaaSGlue</a>
+    <p>This article will demonstrate how to import your Cron jobs to <a target="_blank" href="/solutions/cron">SaaSGlue</a>
       in five minutes or less. To see how it works in action, watch the 2 1/2 minute demo video at the end of this
       article.</p>
     <h2>Cron is great, until it's not</h2>
@@ -51,11 +51,9 @@
     <hr />
     <h2>Import your Cron jobs in 3 steps</h2>
     <h3>Step 1: Sign up for a free account</h3>
-    <p><a href="https://console.saasglue.com/">Sign up</a> for a free account and log into the SaaSGlue web console.
-      You
-      can sign up with your Google or Github account or with your email address. There is no payment option required
-      to
-      sign up and your first 1,000 scripts are free.</p>
+    <p><a target="_blank" href="https://console.saasglue.com/">Sign up</a> for a free account and log into the SaaSGlue 
+      web console. You can sign up with your Google or Github account or with your email address. There is no payment 
+      option required to sign up and your first 1,000 scripts are free.</p>
     <h3>Step 2: Download and install the SaaSGlue agent</h3>
     <p>SaaSGlue runs your Cron jobs via an agent which can be installed on Linux, Mac or Windows machines. Before
       installing the agent you'll need to generate a revokable, secure access key in the web console which is used to

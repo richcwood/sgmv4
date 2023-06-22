@@ -4,7 +4,7 @@
       <h1 class="title has-text-centered">SaaSGlue Blog</h1>
 
       <div class="columns is-multiline">
-        <div v-for="article in articles" class="column is-3">
+        <div v-for="article in articles" class="column is-4">
           <ArticleCard :articleUrl="article.uri" :author="article.author" :createdDate="new Date(article.date)">
             <template #image>
               <img :src="article.image" alt="Article image" />

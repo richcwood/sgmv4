@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card mr-6 mb-4">
     <div class="card-image">
       <figure class="image is-16by9">
         <slot name="image" />
