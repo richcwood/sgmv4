@@ -79,7 +79,7 @@
   import axios from 'axios';
 
   const createSmallGuid = () => Math.random().toFixed(5).substring(2);
-  const authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2M3ZWMwYThkYTkxMDAxOGUyYmUyMyIsInR5cGUiOjAsImVtYWlsIjoiYm9nb2QyMzA0OUBkM2ZmLmNvbSIsInRlYW1JZHMiOlsiNjBjMTZiNjRiMzA4ZTMwMDE3OTgxNjA5Il0sInRlYW1BY2Nlc3NSaWdodElkcyI6eyI2MGMxNmI2NGIzMDhlMzAwMTc5ODE2MDkiOiIxM2YzZjczZjg2ZjExOTgifSwidGVhbUlkc0ludml0ZWQiOltdLCJuYW1lIjoiTWFya2V0aW5nIERlbW8iLCJjb21wYW55TmFtZSI6IlNHIE1hcmtldGluZyBEZW1vIiwiZXhwIjoxNzMwMjE3NDc5LCJpYXQiOjE2MzU2MDk0Nzl9.QFMNop5Unvg4-TJQ1Voeh3mSfZdV-to3Uu0o1cIddlQ'; // this is a very limited demo account that is monitored
+  const authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxN2M3ZWMwYThkYTkxMDAxOGUyYmUyMyIsInR5cGUiOjAsImVtYWlsIjoiYm9nb2QyMzA0OUBkM2ZmLmNvbSIsInRlYW1JZHMiOlsiNjBjMTZiNjRiMzA4ZTMwMDE3OTgxNjA5Il0sInRlYW1BY2Nlc3NSaWdodElkcyI6eyI2MGMxNmI2NGIzMDhlMzAwMTc5ODE2MDkiOiIxM2YzZjczZjg2ZjExOTgifSwidGVhbUlkc0ludml0ZWQiOltdLCJuYW1lIjoiTWFya2V0aW5nIERlbW8iLCJjb21wYW55TmFtZSI6IlNHIE1hcmtldGluZyBEZW1vIiwiaWF0IjoxNjg3ODQxMjE5fQ.txHJ5hx2ibLS4lzNBvk7cG5yviNV9GCwIgPqoknq-tQ'; // this is a very limited demo account that is monitored
   const teamId = '60c16b64b308e30017981609';
   const correlationId = createSmallGuid();
   const computeJobName = () => `MarketingDemo-${correlationId}-${createSmallGuid()}`;
