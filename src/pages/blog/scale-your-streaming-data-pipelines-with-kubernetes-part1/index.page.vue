@@ -6,6 +6,9 @@
     <template #tags>
       <span v-for="tag in tags" class="tag is-primary">{{ tag }}</span>
     </template>
+    <figure class="image is-fullwidth">
+      <img src="@/assets/images/blog/scale-data-pipelines-part1/head-image.png" alt="Head image" />
+    </figure>
     <p>A system architecture for streaming data pipelines that scales automatically while minimizing compute costs.</p>
     <h2>Introduction</h2>
     <p>This article describes an architectural pattern for handling variable rate workloads with Kubernetes. 

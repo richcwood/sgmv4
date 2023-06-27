@@ -6,6 +6,9 @@
     <template #tags>
       <span v-for="tag in tags" class="tag is-primary">{{ tag }}</span>
     </template>
+    <figure class="image is-fullwidth">
+      <img src="@/assets/images/blog/scale-data-pipelines-part2/head-image.png" alt="Head image" />
+    </figure>
     <p>Demonstrates an implementation of a system architecture for streaming data pipelines that scales automatically 
       while minimizing compute costs using SaaSGlue.</p>
     <h2>Introduction</h2>

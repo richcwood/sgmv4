@@ -21,7 +21,6 @@
         <slot name="description" />
       </p>
       <p class="is-flex is-align-items-center is-justify-content-start">
-        <span class="mr-3 has-text-weight-bold">{{ author }}</span>
         <time :datetime="seoCreatedDate">{{ createdDateLocal }}</time>
       </p>
     </div>
