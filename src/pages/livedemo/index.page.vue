@@ -5,7 +5,7 @@
           <h5 class="title has-text-centered">(Only a few key features are available for this live demo)</h5>
 
           <select class="input select" style="width: 250px; margin-bottom: 20px;" v-model="currentScriptLanguage">
-              <option value="javascript">Javascript (node 12.x runtime)</option>
+              <option value="javascript">Javascript (node 14.x runtime)</option>
               <option value="python">Python (3.9 runtime)</option>
           </select>
           <span style="margin-left: 10px; vertical-align: -webkit-baseline-middle;">(several other languages/runtimes/options are available in <a href="https://console.saasglue.com">production</a>)</span>
@@ -237,9 +237,9 @@ print('Json placeholder did not return any users.')
 
           computeLambdaRuntime(){
               if(this.currentScriptLanguage === 'javascript'){
-                  return 'nodejs12.x';
+                  return 'nodejs14.x';
               } else {
-                  return 'python3.7'
+                  return 'python3.9'
               }
           },
 
