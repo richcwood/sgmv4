@@ -6,7 +6,7 @@
 
             <select class="input select" style="width: 250px; margin-bottom: 20px;" v-model="currentScriptLanguage">
                 <option value="javascript">Javascript (node 12.x runtime)</option>
-                <option value="python">Python (3.7 runtime)</option>
+                <option value="python">Python (3.9 runtime)</option>
             </select>
             <span style="margin-left: 10px; vertical-align: -webkit-baseline-middle;">(several other languages/runtimes/options are available in <a href="https://console.saasglue.com">production</a>)</span>
 
@@ -236,7 +236,7 @@ else:
                 if(this.currentScriptLanguage === 'javascript'){
                     return 'nodejs12.x';
                 } else {
-                    return 'python3.7'
+                    return 'python3.9'
                 }
             },
 
@@ -454,7 +454,8 @@ else:
         //@ts-ignore
         private onStepOutcome({model}: {model: any}){
             // should be able to correlate with the job ids :( - todo
-            this.tailHandler(model.tail);
+            let lastUpdateId = model['lastUpdatedId'] || 0;
+            this.tailHandler(model.tail.slice(lastUpdateId));
         }
 
         //@ts-ignore
