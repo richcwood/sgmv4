@@ -454,7 +454,7 @@ else:
         //@ts-ignore
         private onStepOutcome({model}: {model: any}){
             // should be able to correlate with the job ids :( - todo
-            let lastUpdateId = model['lastUpdatedId'] || 0;
+            let lastUpdateId = model['lastUpdateId'] || 0;
             this.tailHandler(model.tail.slice(lastUpdateId));
         }
 
