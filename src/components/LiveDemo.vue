@@ -298,12 +298,14 @@ else:
                 }, 1000);
             },
 
-            // called from the stomp handler
-            onJobTail(tails: string[]) {
-                for(let tail of tails){
-                    this.scriptOutput += `${tail}<br>`;
-                }
-            },
+          // called from the stomp handler
+          onJobTail(tails: string[]) {
+              for(let tail of tails){
+                  if (this.scriptOutput.indexOf(tail) < 0){
+                      this.scriptOutput += `${tail}<br>`;
+                  }
+              }
+          },
 
             // called from the stomp handler
             onTaskOutcome(taskOutcome: any) {
@@ -454,8 +456,7 @@ else:
         //@ts-ignore
         private onStepOutcome({model}: {model: any}){
             // should be able to correlate with the job ids :( - todo
-            let lastUpdateId = (Number(model['lastUpdateId']) || 1) - 1;
-            this.tailHandler(model.tail.slice(lastUpdateId));
+            this.tailHandler(model.tail);
         }
 
         //@ts-ignore

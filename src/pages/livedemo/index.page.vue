@@ -304,7 +304,9 @@ print('Json placeholder did not return any users.')
           // called from the stomp handler
           onJobTail(tails: string[]) {
               for(let tail of tails){
-                  this.scriptOutput += `${tail}<br>`;
+                  if (this.scriptOutput.indexOf(tail) < 0){
+                      this.scriptOutput += `${tail}<br>`;
+                  }
               }
           },
 
@@ -456,8 +458,7 @@ print('Json placeholder did not return any users.')
       //@ts-ignore
       private onStepOutcome({model}: {model: any}){
           // should be able to correlate with the job ids :( - todo
-          let lastUpdateId = (Number(model['lastUpdateId']) || 1) - 1;
-          this.tailHandler(model.tail.slice(lastUpdateId));
+          this.tailHandler(model.tail);
       }
 
       //@ts-ignore
