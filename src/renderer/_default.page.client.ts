@@ -1,6 +1,8 @@
 import type { PageContextClient } from './types';
 import { createApp, getPageTitle } from './app';
 
+
+
 export function render(pageContext: PageContextClient) {
   const { Page, pageProps } = pageContext;
 

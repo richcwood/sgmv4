@@ -4,6 +4,7 @@ import scaleDataPipelinesPart1HeadImage from '@/assets/images/blog/scale-data-pi
 import scaleDataPipelinesPart2HeadImage from '@/assets/images/blog/scale-data-pipelines-part2/head-image.png';
 import awsDataPipelinesHeadImage from "@/assets/images/blog/aws-data-pipelines/head-image.webp";
 import buildTwitterAnalyzerHeadImage from '@/assets/images/blog/twitter-analyzer/head-image.webp';
+import chatGPTFunctionCalling1 from '@/assets/images/blog/intro-to-openai-chatgpt-function-calling/ChatGPTFunctionCalling1.png';
 
 export interface Article {
   author: string;
@@ -32,10 +33,24 @@ export enum Tag {
   SERVERLESS_ARCHITECTURE = 'Serverless Architecture',
   RABBITMQ = 'RabbitMQ',
   CRONJOB = 'Cronjob',
-  LOW_CODE = 'Low Code'
+  LOW_CODE = 'Low Code',
+  OPEN_AI = 'OpenAI',
+  CHAT_GPT = 'ChatGPT',
+  FUNCTION_CALLING = 'Function Calling',
+  EXAMPLES = 'Examples'
 }
 
-export default [{
+export default [
+  {
+    author: 'SaasGlue',
+    uri: '/blog/intro-to-openai-chatgpt-function-calling',
+    date: '2023-8-6',
+    image: chatGPTFunctionCalling1,
+    title: 'Intro to ChatGPT Function Calling',
+    description: 'ChatGPT Function Calling helps you convert natural language to executed code.',
+    tags: [Tag.CRON, Tag.SOFT_DEV, Tag.AUTO_SOFT, Tag.SAAS, Tag.SAAS_TOOLS]
+  },
+  {
   author: 'Richard Wood',
   uri: '/blog/time-for-a-change-manage-and-monitor-your-cron-jobs-in-the-cloud-with-saasglue',
   date: '2023-4-8',
