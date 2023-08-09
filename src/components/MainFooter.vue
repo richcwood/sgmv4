@@ -70,7 +70,7 @@ export default defineComponent({
 
     computed: {
         articles(): Article[] {
-            return articles.slice(-6);
+            return articles.slice(0, 6);
         }
     }
 });

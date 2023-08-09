@@ -228,7 +228,7 @@ export default defineComponent({
 
   data () {
     return {
-      sdkKey: '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',
+      sdkKey: '',
       //sdkKey: 'Enter Your OpenAI API Key Here',
       
       curl1: `curl --location 'https://api.openai.com/v1/chat/completions' \
@@ -285,7 +285,7 @@ export default defineComponent({
     }
   `,
     curl2: `curl --location 'https://api.openai.com/v1/chat/completions' \
---header 'Authorization: Bearer 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' \
+--header 'Authorization: Bearer $SDK_KEY' \
 --header 'Content-Type: application/json' \
 --data '{
     "model": "gpt-3.5-turbo-0613",
