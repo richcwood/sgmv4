@@ -228,8 +228,8 @@ export default defineComponent({
 
   data () {
     return {
-      sdkKey: '',
-      //sdkKey: 'Enter Your OpenAI API Key Here',
+      // sdkKey: '',
+      sdkKey: 'Enter Your OpenAI API Key Here',
       
       curl1: `curl --location 'https://api.openai.com/v1/chat/completions' \
   --header 'Authorization: Bearer $SDK_KEY' \

@@ -5,6 +5,9 @@ import scaleDataPipelinesPart2HeadImage from '@/assets/images/blog/scale-data-pi
 import awsDataPipelinesHeadImage from "@/assets/images/blog/aws-data-pipelines/head-image.webp";
 import buildTwitterAnalyzerHeadImage from '@/assets/images/blog/twitter-analyzer/head-image.webp';
 import chatGPTFunctionCalling1 from '@/assets/images/blog/intro-to-openai-chatgpt-function-calling/ChatGPTFunctionCalling1.png';
+// import patientReminderService from '@/assets/images/blog/patient-reminder-service/basic_flow.png';
+import connectToDesktopSoftware from '@/assets/images/blog/connect-to-desktop-software/head-image.png';
+// import datasyncForMultiplePMSVersions from '@/assets/images/blog/data-sync-for-multiple-pms-versions/head-image.png';
 
 export interface Article {
   author: string;
@@ -37,10 +40,41 @@ export enum Tag {
   OPEN_AI = 'OpenAI',
   CHAT_GPT = 'ChatGPT',
   FUNCTION_CALLING = 'Function Calling',
-  EXAMPLES = 'Examples'
+  EXAMPLES = 'Examples',
+  DENTAL_SOFTWARE = 'Dental Software',
+  INTEGRATION = 'Integration'
 }
 
 export default [
+  // todo - uncomment and change dates when these articles are published
+  // {
+  //   author: 'SaasGlue',
+  //   uri: '/blog/patient-reminder-service',
+  //   date: '2023-9-20',
+  //   image: patientReminderService,
+  //   title: 'Support a Patient Reminder Service with SaasGlue',
+  //   description: 'Learn how to use SaasGlue for the core components in a patient reminder service.',
+  //   tags: [Tag.DENTAL_SOFTWARE, Tag.DATA_ENGINEERING, Tag.INTEGRATION]
+  // },
+  // {
+  //   author: 'SaasGlue',
+  //   uri: '/blog/data-sync-for-multiple-pms-versions',
+  //   date: '2023-9-20',
+  //   image: datasyncForMultiplePMSVersions,
+  //   title: `Don't let PMS upgrades break your data sync`,
+  //   description: 'See how you can design data sync jobs that stay ahead of practice management software upgrades',
+  //   tags: [Tag.DENTAL_SOFTWARE, Tag.DATA_ENGINEERING, Tag.INTEGRATION]
+  // },
+
+  {
+    author: 'SaasGlue',
+    uri: '/blog/connect-to-desktop-software',
+    date: '2023-9-20',
+    image: connectToDesktopSoftware,
+    title: 'How to connect desktop software in a SaaSGlue job',
+    description: 'Learn several methods for connecting to desktop software with SaaSGlue',
+    tags: [Tag.DENTAL_SOFTWARE, Tag.DATA_ENGINEERING, Tag.INTEGRATION]
+  },
   {
     author: 'SaasGlue',
     uri: '/blog/intro-to-openai-chatgpt-function-calling',
@@ -48,7 +82,7 @@ export default [
     image: chatGPTFunctionCalling1,
     title: 'Intro to ChatGPT Function Calling',
     description: 'ChatGPT Function Calling helps you convert natural language to executed code.',
-    tags: [Tag.CRON, Tag.SOFT_DEV, Tag.AUTO_SOFT, Tag.SAAS, Tag.SAAS_TOOLS]
+    tags: [Tag.CHAT_GPT, Tag.FUNCTION_CALLING]
   },
   {
   author: 'Richard Wood',
