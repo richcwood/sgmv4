@@ -5,6 +5,7 @@ import scaleDataPipelinesPart2HeadImage from '@/assets/images/blog/scale-data-pi
 import awsDataPipelinesHeadImage from "@/assets/images/blog/aws-data-pipelines/head-image.webp";
 import buildTwitterAnalyzerHeadImage from '@/assets/images/blog/twitter-analyzer/head-image.webp';
 import chatGPTFunctionCalling1 from '@/assets/images/blog/intro-to-openai-chatgpt-function-calling/ChatGPTFunctionCalling1.png';
+import dentalPatientReminder from '@/assets/images/blog/patient-reminder/img1.png';
 
 export interface Article {
   author: string;
@@ -37,12 +38,25 @@ export enum Tag {
   OPEN_AI = 'OpenAI',
   CHAT_GPT = 'ChatGPT',
   FUNCTION_CALLING = 'Function Calling',
-  EXAMPLES = 'Examples'
+  EXAMPLES = 'Examples',
+  DENTAL = 'Dental',
+  HEALTHCARE = 'Healthcare',
+  CLOUD_APP = 'Cloud App',
+  CLOUD_SERVICE = 'Cloud Service',
 }
 
 export default [
   {
-    author: 'SaasGlue',
+    author: 'Jay Wood',
+    uri: '/blog/patient-reminder',
+    date: '2023-8-28',
+    image: dentalPatientReminder,
+    title: 'Support a patient reminder service with SaaSGlue',
+    description: 'Create a data sync solution for a patient reminder service with a few simple scripts.',
+    tags: [Tag.DENTAL, Tag.HYBRID_CLOUD, Tag.HEALTHCARE, Tag.CLOUD_APP, Tag.CLOUD_SERVICE]
+  },
+  {
+    author: 'Bart Wood',
     uri: '/blog/intro-to-openai-chatgpt-function-calling',
     date: '2023-8-6',
     image: chatGPTFunctionCalling1,
