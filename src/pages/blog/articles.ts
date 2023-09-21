@@ -51,7 +51,6 @@ export enum Tag {
 }
 
 export default [
-  // todo - uncomment and change dates when these articles are published
   {
     author: 'SaasGlue',
     uri: '/blog/patient-reminder-service',
