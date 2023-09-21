@@ -5,9 +5,10 @@ import scaleDataPipelinesPart2HeadImage from '@/assets/images/blog/scale-data-pi
 import awsDataPipelinesHeadImage from "@/assets/images/blog/aws-data-pipelines/head-image.webp";
 import buildTwitterAnalyzerHeadImage from '@/assets/images/blog/twitter-analyzer/head-image.webp';
 import chatGPTFunctionCalling1 from '@/assets/images/blog/intro-to-openai-chatgpt-function-calling/ChatGPTFunctionCalling1.png';
-// import patientReminderService from '@/assets/images/blog/patient-reminder-service/basic_flow.png';
+// import dentalPatientReminder from '@/assets/images/blog/patient-reminder/img1.png';
+import patientReminderService from '@/assets/images/blog/patient-reminder-service/basic_flow.png';
 import connectToDesktopSoftware from '@/assets/images/blog/connect-to-desktop-software/head-image.png';
-// import datasyncForMultiplePMSVersions from '@/assets/images/blog/data-sync-for-multiple-pms-versions/head-image.png';
+import datasyncForMultiplePMSVersions from '@/assets/images/blog/data-sync-for-multiple-pms-versions/head-image.png';
 
 export interface Article {
   author: string;
@@ -41,30 +42,34 @@ export enum Tag {
   CHAT_GPT = 'ChatGPT',
   FUNCTION_CALLING = 'Function Calling',
   EXAMPLES = 'Examples',
+  DENTAL = 'Dental',
+  HEALTHCARE = 'Healthcare',
+  CLOUD_APP = 'Cloud App',
+  CLOUD_SERVICE = 'Cloud Service',
   DENTAL_SOFTWARE = 'Dental Software',
   INTEGRATION = 'Integration'
 }
 
 export default [
   // todo - uncomment and change dates when these articles are published
-  // {
-  //   author: 'SaasGlue',
-  //   uri: '/blog/patient-reminder-service',
-  //   date: '2023-9-20',
-  //   image: patientReminderService,
-  //   title: 'Support a Patient Reminder Service with SaasGlue',
-  //   description: 'Learn how to use SaasGlue for the core components in a patient reminder service.',
-  //   tags: [Tag.DENTAL_SOFTWARE, Tag.DATA_ENGINEERING, Tag.INTEGRATION]
-  // },
-  // {
-  //   author: 'SaasGlue',
-  //   uri: '/blog/data-sync-for-multiple-pms-versions',
-  //   date: '2023-9-20',
-  //   image: datasyncForMultiplePMSVersions,
-  //   title: `Don't let PMS upgrades break your data sync`,
-  //   description: 'See how you can design data sync jobs that stay ahead of practice management software upgrades',
-  //   tags: [Tag.DENTAL_SOFTWARE, Tag.DATA_ENGINEERING, Tag.INTEGRATION]
-  // },
+  {
+    author: 'SaasGlue',
+    uri: '/blog/patient-reminder-service',
+    date: '2023-9-20',
+    image: patientReminderService,
+    title: 'Support a Patient Reminder Service with SaasGlue',
+    description: 'Learn how to use SaasGlue for the core components in a patient reminder service.',
+    tags: [Tag.DENTAL, Tag.HYBRID_CLOUD, Tag.HEALTHCARE, Tag.CLOUD_APP, Tag.CLOUD_SERVICE]
+  },
+  {
+    author: 'SaasGlue',
+    uri: '/blog/data-sync-for-multiple-pms-versions',
+    date: '2023-9-20',
+    image: datasyncForMultiplePMSVersions,
+    title: `Don't let PMS upgrades break your data sync`,
+    description: 'See how you can design data sync jobs that stay ahead of practice management software upgrades',
+    tags: [Tag.DENTAL, Tag.HYBRID_CLOUD, Tag.HEALTHCARE, Tag.CLOUD_APP, Tag.CLOUD_SERVICE]
+  },
 
   {
     author: 'SaasGlue',
@@ -76,7 +81,7 @@ export default [
     tags: [Tag.DENTAL_SOFTWARE, Tag.DATA_ENGINEERING, Tag.INTEGRATION]
   },
   {
-    author: 'SaasGlue',
+    author: 'Bart Wood',
     uri: '/blog/intro-to-openai-chatgpt-function-calling',
     date: '2023-8-6',
     image: chatGPTFunctionCalling1,
