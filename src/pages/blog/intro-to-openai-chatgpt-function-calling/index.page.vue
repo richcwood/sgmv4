@@ -78,7 +78,7 @@
     <p>
       In this example, GPT can fulfill the prompt by invoking a single function.  
       In more complex situations, GPT is able to take a large list of functions and determine which functions should be invoked in the proper dependency order.  
-      Follow up SaasGlue blog articles will review more complex scenarios with multiple functions / dependencies.
+      Follow up SaaSGlue blog articles will review more complex scenarios with multiple functions / dependencies.
     </p>
 
     <h4>Try It Out</h4>

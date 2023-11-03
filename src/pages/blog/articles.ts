@@ -51,16 +51,16 @@ export enum Tag {
 
 export default [
   {
-    author: 'SaasGlue',
+    author: 'SaaSGlue',
     uri: '/blog/patient-reminder-service',
     date: '2023-11-1',
     image: patientReminderService,
-    title: 'Support a Patient Reminder Service with SaasGlue',
-    description: 'Learn how to use SaasGlue for the core components in a patient reminder service.',
+    title: 'Support a Patient Reminder Service with SaaSGlue',
+    description: 'Learn how to use SaaSGlue for the core components in a patient reminder service.',
     tags: [Tag.DENTAL, Tag.HYBRID_CLOUD, Tag.HEALTHCARE, Tag.CLOUD_APP, Tag.CLOUD_SERVICE]
   },
   // {
-  //   author: 'SaasGlue',
+  //   author: 'SaaSGlue',
   //   uri: '/blog/data-sync-for-multiple-pms-versions',
   //   date: '2023-9-20',
   //   image: datasyncForMultiplePMSVersions,
@@ -69,7 +69,7 @@ export default [
   //   tags: [Tag.DENTAL, Tag.HYBRID_CLOUD, Tag.HEALTHCARE, Tag.CLOUD_APP, Tag.CLOUD_SERVICE]
   // },
   {
-    author: 'SaasGlue',
+    author: 'SaaSGlue',
     uri: '/blog/connect-to-desktop-software',
     date: '2023-9-20',
     image: connectToDesktopSoftware,
